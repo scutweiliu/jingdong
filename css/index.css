@@ -1,0 +1,97 @@
+.jd_layout{
+	width:100%;
+	min-width:320px;
+	max-width:640px;
+	margin: 0 auto;
+	position: relative;
+}
+.jd_search{
+	width:100%;
+	height:42px;
+	/*background:#2e2e2e;*/
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:1000;
+}
+.jd_search>.icon_jd_logo{
+	width:21px;
+	height:16px;
+	position:relative;
+	margin:13px 5px 13px 20px;
+}
+.jd_search>.icon_jd_search{
+	width:15px;
+	height:15px;
+	background-size:150px 150px;
+	background-position:-45px -82.5px;
+	margin:14px 0;
+	position:relative;
+}
+.jd_search>form{
+	width:100%;
+	padding-left:10px;
+	padding-right:50px;
+	position:absolute;
+	height:42px;
+}
+.jd_search>form>input{
+	width:100%;
+	height:30px;
+	border-radius:15px;
+	padding-left:61px;
+	margin-top:6px;
+	border:0;
+}
+.jd_search>a{
+	width:30px;
+	font-size:13px;
+	color:white;
+	height:42px;
+	line-height:42px;
+	position:absolute;
+	right:10px;
+	top:0;
+}
+.jd_banner{
+	width:100%;
+}
+.jd_banner>.swiper-wrapper{
+	width:1000%;
+}
+.jd_banner>.swiper-wrapper>.swiper-slide{
+	width:10%;
+}
+.jd_banner>.swiper-wrapper>.swiper-slide>a{
+	width:100%;
+}
+.jd_banner>.swiper-wrapper>.swiper-slide>a>img{
+	width:100%;
+}
+.jd_banner>.swiper-pagination>.swiper-pagination-bullet{
+	border:1px solid white;
+	opacity:1;
+	background:none;
+	
+}
+.jd_banner>.swiper-pagination>.swiper-pagination-bullet-active{
+	background:white;
+}
+
+/*****nav导航****/
+.jd_nav{
+	width:100%;
+}
+.jd_nav>a{
+	width:20%;
+	float:left;
+	text-align: center;
+	padding-top:20px;
+}
+.jd_nav>a>img{
+	width:40%;
+	transform: translateX(75%);
+}
+.jd_nav>a>p{
+	font-size:1em;
+}
