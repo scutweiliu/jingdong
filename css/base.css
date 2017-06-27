@@ -26,6 +26,9 @@ body {
 	background:url(../img/sprites.png);
 	background-size:200px 200px;
 }
+i{
+	font-style:normal;
+}
 img{
 	display: block;
 }
